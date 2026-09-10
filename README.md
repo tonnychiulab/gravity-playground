@@ -1,10 +1,33 @@
 # 引力遊樂場 · Gravity Playground
 
+**版本：v1.0.0** · **共同創作：Tonny（@tonnychiulab）× OpenAI GPT-6 Astra**
+
 讓宇宙亂一下。用滑鼠或手指攪動 2,800 顆星塵，在星環、漩渦與光之海之間切換。
 
 **[直接開玩 →](https://tonnychiulab.github.io/gravity-playground/)**
 
 不需登入、不需安裝。單一 HTML 檔，使用原生 JavaScript 與 Canvas 2D，沒有外部套件、字型或圖片依賴；下載後也能離線玩。
+
+## 共同創作與模型
+
+這是一個由人類與 AI 協作完成的互動作品。
+
+- **[Tonny（@tonnychiulab）](https://github.com/tonnychiulab)**：發起專案、提出需求與創作方向，決定公開發布及共同署名。
+- **OpenAI GPT-6 Astra（AI 協作者）**：協作完成視覺設計、程式實作、瀏覽器驗證與部署設定。
+- **本次開發環境標示的模型識別碼**：`openai-codex/gpt-6-astra`。
+
+模型資訊記錄的是開發時使用的 AI；網頁執行時不會呼叫模型或 AI API，也不需要 API key。AI 協作署名不代表 OpenAI 官方出品或背書。
+
+## 版本紀錄
+
+### v1.0.0
+
+首個編號版本，對應 Git 標籤 [`v1.0.0`](https://github.com/tonnychiulab/gravity-playground/tree/v1.0.0)。
+
+- 三種粒子模式：星環、漩渦、光之海。
+- 滑鼠與觸控擾動、爆發、強度調整、暫停及重置。
+- PNG 畫布匯出、鍵盤操作與減少動態效果支援。
+- 公開 GitHub Pages 網站、操作文件，以及頁面版本號與人類／AI 共同署名。
 
 ## 怎麼玩
 
